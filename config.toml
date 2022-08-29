@@ -69,5 +69,17 @@ theme = "raditian-free-hugo-theme"
 
   [params.footer]
       copyright = "© Wellerson Minozzo. All rights reserved."
+
+
+
+[module]
+
+[[module.imports]]
+  disable = false
+  ignoreConfig = false
+  ignoreImports = false
+  path = 'https://github.com/radity/raditian-free-hugo-theme.git'
+[[module.imports]]
+  path = 'my-shortcodes'
       
        
